@@ -10,7 +10,7 @@ app = Flask(__name__)
 api = Api(app)
 
 
-class predict(Resource):
+class Predict(Resource):
     @staticmethod
     def post():
         try:
